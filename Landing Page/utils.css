@@ -1,0 +1,238 @@
+.min-h-screen{
+    min-height:100vh ;
+}
+.bg-red{
+    background-color: red;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.font-bold{
+    font-weight: bolder;
+}
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.text-blue{
+    color: rgb(211, 33, 44);
+}
+.btn{
+
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(238, 13, 47);
+}
+.logo{
+    font-size: 1.5rem;
+}
+.text-center{
+    margin-top: 40px;
+   font-size: 2rem;
+    text-align: center;
+}
+.paraClass{
+    margin-top: 20px;
+    padding-left: 63px;
+    padding-right: 63px;
+}
+/* .boxes{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding: 12px 22px;
+    min-width: 33vw;
+} */
+.box{
+    /* margin-top: 40px;   
+    border: 2px solid black;
+    border-radius: 20px;
+    border-spacing: 2rem;
+    display: flex;
+    gap: 2rem; */
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 0;
+
+}
+/* .box h4{
+    margin-left: 80px;
+} */
+.box ul{
+    list-style: none;
+}
+.box li{
+    margin: 12px 2px;
+    list-style: none;
+}
+.boxes{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+    color: #333;
+}
+
+/* Pricing Table Styles */
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.pricing-table th, .pricing-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.pricing-table th {
+    background-color: red;
+    color: white;
+    font-size: 1.2em;
+}
+
+.pricing-table td {
+    background-color: white;
+}
+
+.ptable-title {
+    font-weight: bold;
+    text-align: left;
+}
+
+.ptable-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.ptable-star i {
+    color: gold;
+}
+
+.highlight {
+    background-color: #28a745;
+    color: white;
+}
+
+.highlight .ptable-price {
+    color: white;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    background-color: #dc3545; /* Red for Join Now buttons */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #c82333; /* Darker shade of red on hover */
+}
+
+/* Color Variations for Buttons */
+.bg-red {
+    background-color: #dc3545;
+}
+
+.bg-green {
+    background-color: #28a745;
+}
+
+.bg-blue {
+    background-color: #007BFF;
+}
+
+.bg-purple {
+    background-color: #6f42c1;
+}
+
+.bg-red a, .bg-green a, .bg-blue a, .bg-purple a {
+    color: white;
+}
+
+.bg-red:hover {
+    background-color: #c82333;
+}
+
+.bg-green:hover {
+    background-color: #218838;
+}
+
+.bg-blue:hover {
+    background-color: #0056b3;
+}
+
+.bg-purple:hover {
+    background-color: #5a3791;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pricing-table th, .pricing-table td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    .ptable-price {
+        font-size: 1.2em;
+    }
+}
